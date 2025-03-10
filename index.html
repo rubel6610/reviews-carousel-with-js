@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <main class="grid  text-center min-h-screen place-items-center text-white">
+        <div class="container mx-auto max-w-80  bg-slate-500 py-5 rounded-2xl">
+            <div class="my-2">
+                <h2 class="font-bold ">Our Reviews</h2>
+            </div>
+            <div class="card  w-80 h-[400px]">
+                <figure class="">
+                    <img id="card-img" class="h-32 w-32 rounded-full object-cover" src="https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg?ga=GA1.1.1432290001.1741513575&semt=ais_hybrid" alt="s">
+                </figure>
+                <div class="card-body flex  justify-center items-center">
+                     <h2 id="card-title" class="card-title text-center">Peter Jones</h2>
+                     <p id="card-text" class="font-medium text-slate-100 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, sequi.</p>
+                     <div class="flex gap-5">
+                         <button id="prev" class="btn btn-circle">❤</button>
+                     <button id="next" class="btn btn-circle" >❯</button>
+                     </div>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
